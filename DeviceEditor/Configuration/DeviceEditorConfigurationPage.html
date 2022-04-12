@@ -1,0 +1,24 @@
+﻿<div data-role="page" class=" type-interior pluginConfigurationPage FileCompressionCopyPage" data-require="emby-button,emby-input,emby-select,emby-checkbox" data-controller="__plugin/DeviceEditorConfigurationPageJS">
+    <div class="content-primary">
+        <div class="verticalSection verticalSection-extrabottompadding">
+           
+            <div class="detailSectionHeader">
+                <h2 style="margin:.6em 0;vertical-align:middle;display:inline-block;">
+                    Settings
+                </h2>
+                <button is="paper-icon-button-light" style="margin-left:1em;" class="fab emby-input-iconbutton paper-icon-button-light" id="settingsDialog"><i class="md-icon">settings</i></button>
+            </div>
+            <div class="detailSectionHeader">
+                <h2 style="margin:.6em 0;vertical-align:middle;display:inline-block;">
+                    Get Device List
+                </h2>
+                <button is="paper-icon-button-light" style="margin-left:1em;" class="fab emby-input-iconbutton paper-icon-button-light" id="getDeviceList"><i class="md-icon">sort</i></button>
+            </div>
+            <h2 style="display: flex; align-items: center; margin: auto; padding-bottom: 1em;">Device Groups</h2>
+             <div class="infoBanner restartInfoBanner flex align-items-center">
+                Some device lists will be large, and if this is the first time the plugin is run, the webpage may want to timeout. Let this plugin collect data uninterrupted.
+            </div>
+            <div id="deviceGroups"></div>
+        </div>
+    </div>
+</div>
